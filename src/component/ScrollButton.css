@@ -1,0 +1,22 @@
+.scroll-button-container {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    z-index: 1000;
+}
+.scroll-button {
+    background-color: #1E88E5; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+.scroll-button:hover {
+    background-color: #1565C0;
+    transform: scale(1.05);
+}

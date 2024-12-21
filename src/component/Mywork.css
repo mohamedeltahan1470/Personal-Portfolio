@@ -1,0 +1,214 @@
+/* تنسيقات قسم الأعمال */
+.mywork {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+.mywork-title h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 48px;
+  color: #333;
+}
+.mywork-section {
+  margin-bottom: 10px;
+}
+.mywork-section h2 {
+  font-size: 2em;
+  color: #444;
+  margin-bottom: 30px;
+}
+.mywork-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.project-card {
+  /* background: linear-gradient(135deg, #f0f0f0, #ffffff); */
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 40px;
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.project-card h3 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 15px;
+}
+.project-card p {
+  color: #666;
+  font-size: 0.95em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+.project-card:hover p {
+  color: #333;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.project-link,
+.more-details-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.project-link {
+  /* background-color: #0D47A1;*/
+  background: linear-gradient(264deg, #0d47a1 -5.09%, #1e88e5 106.28%);
+}
+.project-link:hover {
+  background-color: #0a3681;
+  transform: scale(1.05);
+}
+.more-details-btn {
+  border: 2px solid #1e88e5;
+  color: #1e88e5;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.more-details-btn:hover {
+  background: linear-gradient(264deg, #0d47a1 -5.09%, #1e88e5 106.28%);
+  color: white;
+  transition: 0.3s;
+  transform: translateY(-2px);
+}
+.mywork-showmore {
+  background-color: #0d47a1;
+  border-radius: 5px;
+  border: 1px solid #0d47a1;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+.mywork-showmore:hover {
+  background: linear-gradient(264deg, #0d47a1 -5.09%, #1e88e5 106.28%);
+  color: white;
+  transition: 0.3s;
+  scale: 1.1;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  text-align: center;
+}
+.modal-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.modal-content h3 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+.modal-content p {
+  color: #666;
+  font-size: 1.1em;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background-color: transparent;
+  color: #aaa;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+.close-modal:hover {
+  color: #000;
+}
+.modal-content .project-link {
+  display: inline-block;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .project-card {
+    width: calc(50% - 20px);
+  }
+  .project-card h3 {
+    font-size: 1.5em;
+  }
+  .project-card p {
+    font-size: 0.95em;
+  }
+  .project-link,
+  .more-details-btn {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+  .modal-content {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .project-card {
+    width: 100%;
+  }
+  .project-card h3 {
+    font-size: 1.3em;
+  }
+  .project-card p {
+    font-size: 0.9em;
+  }
+  .button-container {
+    flex-direction: column;
+  }
+  .project-link,
+  .more-details-btn {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .modal-content {
+    width: 95%;
+  }
+}

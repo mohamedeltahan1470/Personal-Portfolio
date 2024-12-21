@@ -1,0 +1,21 @@
+{
+    "short_name": "Portfolio",
+    "name": "Mohammed ali Portfolio",
+    "icons": [
+      {
+        "src": "/portfolio.jpg",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/portfolio2.jpg",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  
