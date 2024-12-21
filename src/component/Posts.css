@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    height: 60vh;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+  }
+  
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .arrow:disabled {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 1024px) {
+    .carousel {
+      height: 50vh;
+      width: 95%;
+    }
+  
+    .arrow {
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel {
+      height: 45vh;
+      width: 90%;
+    }
+  
+    .arrow {
+      font-size: 18px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel {
+      height: 35vh;
+      width: 100%;
+    }
+  
+    .arrow {
+      font-size: 16px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .carousel {
+      height: 30vh;
+      width: 100%;
+    }
+  
+    .arrow {
+      font-size: 14px;
+      padding: 6px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .carousel {
+      height: 70vh;
+      width: 60%;
+    }
+  
+    .arrow {
+      font-size: 28px;
+      padding: 14px;
+    }
+  }
+  

@@ -8,6 +8,7 @@ import Skills from "./component/Skills";
 import Footer from "./component/Footer";
 import ScrollButton from "./component/ScrollButton";
 import "./index.css";
+import Posts from "./component/Posts";
 
 const App = () => {
   return (
@@ -31,6 +32,10 @@ const App = () => {
       <hr className="divider" />
       <div id="work">
         <MyWork />
+      </div>
+      <hr className="divider" />
+      <div id="work">
+        <Posts/>
       </div>
       <hr className="divider" />
       <div id="contact">
