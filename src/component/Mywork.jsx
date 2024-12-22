@@ -62,11 +62,19 @@ const mywork_data = {
       link: "https://make-qr-code-generator.vercel.app/"
     },
     {
+      id: 32,
+      name: "To-Do List",
+      image: "project-image2.jpg",
+      description: "This is a simple To Do List web application built using HTML, CSS, and JavaScript. It allows users to add tasks, mark them as completed, delete them, and store them in the browser's local storage for persistence.",
+      fullDescription: "This JavaScript To-Do List Application allows users to manage their tasks efficiently. Features include adding new tasks, removing tasks, and marking them as completed. The application utilizes local storage to save user tasks, ensuring data persistence even after refreshing the browser. The user interface is designed to be clean and responsive, making it accessible on both desktop and mobile devices. This project showcases the fundamental concepts of DOM manipulation, event handling, and local storage management in JavaScript.",
+      link: "https://task-master-website-uozl.vercel.app/",
+    },
+    {
       id: 8,
-      name: "To-Do List Application",
+      name: "To-Do List",
       image: "project-image2.jpg",
       description: "A simple and interactive To-Do List application built using JavaScript. Users can add, remove, and mark tasks as completed, with data saved in local storage for persistence.",
-      fullDescription: "This JavaScript To-Do List Application allows users to manage their tasks efficiently. Features include adding new tasks, removing tasks, and marking them as completed. The application utilizes local storage to save user tasks, ensuring data persistence even after refreshing the browser. The user interface is designed to be clean and responsive, making it accessible on both desktop and mobile devices. This project showcases the fundamental concepts of DOM manipulation, event handling, and local storage management in JavaScript.",
+      fullDescription: "This is a simple To Do List web application built using HTML, CSS, and JavaScript. It allows users to add tasks, mark them as completed, delete them, and store them in the browser's local storage for persistence.",
       link: "https://weather-application-uding-html-css-js-wcfb.vercel.app/",
     },
     {

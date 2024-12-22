@@ -39,9 +39,6 @@
 .nav-conntent:hover {
   transform: scale(1.09);
 }
-.nav-mob-close{
-    background-color: #1f0016;
-}
 .nav-mob-close,
 .nav-mob-open {
   display: none;
@@ -107,8 +104,7 @@
     right: 0;
   }
   .nav-mob-close{
-    color: #1f0016;
-    background-color: #1f0016;
+    background-color: transparent;
 }
 }
 @media (max-width: 480px) {
@@ -128,7 +124,6 @@
     width: 25px;
   }
   .nav-mob-close{
-    color: #1f0016;
-    background-color: #1f0016;
+    background-color: transparent;
 }
 } 
