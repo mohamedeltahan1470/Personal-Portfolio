@@ -23,7 +23,6 @@ const Navbar = () => {
       <img
        className="img1" 
        src="https://res.cloudinary.com/dum9aqxis/image/upload/v1733342435/514d3cb5-8bd6-4d69-843b-c780ca8f8287_wtveca.jpg"
-      // src="https://res.cloudinary.com/dum9aqxis/image/upload/v1734792027/%D8%B5%D9%88%D8%B1%D8%A9_1_qhtcp0.jpg"
        alt="Logo" />
 
       <img
