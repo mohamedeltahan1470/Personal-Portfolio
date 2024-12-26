@@ -4,12 +4,15 @@ import acpc from "../assets/certiticates/acps_page-0001.jpg";
 import training from "../assets/certiticates/Front-end Training.jpg";
 import web from "../assets/certiticates/web certifiation.jpg";
 import web1 from "../assets/certiticates/Web Certification.jpg";
-import github from "../assets/certiticates/Git and GitHub Certification_page-0001.jpg";
+import github from "../assets/certiticates/Git GitHub.jpg";
 import Reactlevel2 from "../assets/certiticates/Reactlevel2.jpg";
 import Reactlevel3 from "../assets/certiticates/Reactlevel3.jpg";
 import Reactlevel4 from "../assets/certiticates/Reactlevel4.jpg";
-import DEPI from "../assets/certiticates/DEPI.jpeg";
+import DEPI from "../assets/certiticates/DEPI.jpg"
 import Manara from "../assets/certiticates/ManaraTech introduction to the internet.png"
+import Nextlevel2 from "../assets/certiticates/Nextlevel2.jpg"
+import Nextlevel3 from "../assets/certiticates/Nextlevel3.jpg"
+import introduction_to_the_internet from "../assets/certiticates/Introduction_to_the_internet_and_web_noffdg.png"
 // import freelancer from "../assets/certiticates/Freelancer Certification_page-0001.jpg";
 // import mongodb from "../assets/certiticates/Course_Certificate_En_page-0001.jpg";
 // import introduction from "../assets/certiticates/1049-14705-مقدمة_في_عالم_البرمجة_page-0001.jpg";
@@ -23,7 +26,12 @@ const certificate_data = {
     {
       id: 15,
       cert_img: DEPI,
-      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1734791366/DEPI_lmhgie.jpg",
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1735229805/Muhammad_Ali_Abdullah_Abdel_Fattah_1_i2nyon_page-0001_hpvfq0.jpg",
+    },
+    {
+      id: 6,
+      cert_img: acpc,
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733341489/acps_page-0001_uiutii.jpg",
     },
     {
       id: 3,
@@ -38,17 +46,17 @@ const certificate_data = {
     {
       id: 1,
       cert_img: Reactlevel2,
-      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733341501/Reactlevel2_dm3tqv.jpg",
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1735226659/reactlevel2_yicmos.jpg",
     }, 
     {
       id: 14,
       cert_img: Reactlevel3,
-      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733341480/Reactlevel3_vexyl6.jpg",
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1735226662/reactlevel3_nwohix.jpg",
     },
     {
       id: 2,
       cert_img: Reactlevel4,
-      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733341492/Reactlevel4_le3ltg.jpg",
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1735226660/reactlevel4_gzsjmd.jpg",
     },
     {
       id: 5,
@@ -56,22 +64,30 @@ const certificate_data = {
       link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733341479/web_certifiation_zr1aaf.jpg",
     },
     {
-      id: 6,
-      cert_img: acpc,
-      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733341489/acps_page-0001_uiutii.jpg",
-    },
-    {
       id: 7,
       cert_img: github,
-      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733341489/Git_and_GitHub_Certification_page-0001_cdlgvp.jpg",
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1735228902/Git-and-GitHub_%D8%AF%D9%88%D8%B1%D8%A9-%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%AC%D9%8A%D8%AA-Git-%D9%88%D8%AC%D9%8A%D8%AA-%D9%87%D8%A8-GitHub_Mohammed-Ali-Abdullah_page-0001_qlet0z.jpg",
+    },
+    {
+      id: 16,
+      cert_img: Nextlevel2,
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1734165824/next2_gaj4nw.jpg",
+    },
+    {
+      id: 17,
+      cert_img: Nextlevel3,
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1735223701/Nextlevel3_sbzfti.jpg",
     },
     {
       id: 16,
       cert_img: Manara,
       link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733672953/Introduction_to_the_internet_and_web_noffdg.png",
     },
-
-
+    {
+      id: 18,
+      cert_img: introduction_to_the_internet,
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733672953/Introduction_to_the_internet_and_web_noffdg.png",
+    },
     // {
     //   id: 8,
     //   cert_img: Artificial,
