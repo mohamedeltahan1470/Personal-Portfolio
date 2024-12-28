@@ -1,9 +1,8 @@
-// import React from "react";
 import "./Certiticates.css";
 import acpc from "../assets/certiticates/acps_page-0001.jpg";
-import training from "../assets/certiticates/Front-end Training.jpg";
+import training from "../assets/certiticates/training-web.jpg";
 import web from "../assets/certiticates/web certifiation.jpg";
-import web1 from "../assets/certiticates/Web Certification.jpg";
+import web1 from "../assets/certiticates/cours-web.jpg";
 import github from "../assets/certiticates/Git GitHub.jpg";
 import Reactlevel2 from "../assets/certiticates/Reactlevel2.jpg";
 import Reactlevel3 from "../assets/certiticates/Reactlevel3.jpg";
@@ -36,12 +35,12 @@ const certificate_data = {
     {
       id: 3,
       cert_img: web1,
-      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733341489/Web_Certification_xluzel.jpg",
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1735393696/cours-web_oslkb0.jpg",
     },
     {
       id: 4,
       cert_img: training,
-      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1733341520/Front-end_Training_nocg76.jpg",
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1735393696/training-web_x1v6sn.jpg",
     },
     {
       id: 1,
