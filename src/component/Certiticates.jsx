@@ -12,6 +12,7 @@ import Manara from "../assets/certiticates/ManaraTech introduction to the intern
 import Nextlevel2 from "../assets/certiticates/Nextlevel2.jpg"
 import Nextlevel3 from "../assets/certiticates/Nextlevel3.jpg"
 import introduction_to_the_internet from "../assets/certiticates/Introduction_to_the_internet_and_web_noffdg.png"
+import DEPI1 from "../assets/certiticates/Mohammed Ali Abdullah Abdelfattah_page-0001.jpg"
 // import freelancer from "../assets/certiticates/Freelancer Certification_page-0001.jpg";
 // import mongodb from "../assets/certiticates/Course_Certificate_En_page-0001.jpg";
 // import introduction from "../assets/certiticates/1049-14705-مقدمة_في_عالم_البرمجة_page-0001.jpg";
@@ -22,6 +23,11 @@ import introduction_to_the_internet from "../assets/certiticates/Introduction_to
 
 const certificate_data = {
   certificates: [
+    {
+      id: 19,
+      cert_img: DEPI1,
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1737029820/Mohammed_Ali_Abdullah_Abdelfattah_page-0001_n7f92j.jpg",
+    },
     {
       id: 15,
       cert_img: DEPI,
@@ -139,6 +145,7 @@ const Services = () => {
                   className="certificate-link"
                 >
                   <img
+                  loading="lazy"
                     src={cert.cert_img}
                     alt={`Certificate ${cert.id}`}
                     className="certificate-img"

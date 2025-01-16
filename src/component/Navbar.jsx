@@ -26,6 +26,7 @@ const Navbar = () => {
        alt="Logo" />
 
       <img
+      loading="lazy"
         src={menu_open}
         onClick={openMenu}
         alt="Open Menu"

@@ -5,6 +5,7 @@ const AboutMe = () => {
     <div className="about" id="about">
       <div className="about-image">
         <img 
+        loading="lazy"
         src="https://res.cloudinary.com/dum9aqxis/image/upload/v1733342383/7e5af332-f0be-452c-8de1-bc7fefeec3af_wgh0a8.jpg"
         alt="Mohamed Ali Abdullah" />
       </div>

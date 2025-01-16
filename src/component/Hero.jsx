@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
       </div>
       <div>
-        <img src={logo} />
+        <img src={logo} loading="lazy"/>
       </div>
     </div>
   );
