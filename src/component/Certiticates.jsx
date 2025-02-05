@@ -13,6 +13,7 @@ import Nextlevel2 from "../assets/certiticates/Nextlevel2.jpg"
 import Nextlevel3 from "../assets/certiticates/Nextlevel3.jpg"
 import introduction_to_the_internet from "../assets/certiticates/Introduction_to_the_internet_and_web_noffdg.png"
 import DEPI1 from "../assets/certiticates/Mohammed Ali Abdullah Abdelfattah_page-0001.jpg"
+import DEPI1English from "../assets/certiticates/Muhammad Ali Abdullah_page-0001-English.jpg"
 // import freelancer from "../assets/certiticates/Freelancer Certification_page-0001.jpg";
 // import mongodb from "../assets/certiticates/Course_Certificate_En_page-0001.jpg";
 // import introduction from "../assets/certiticates/1049-14705-مقدمة_في_عالم_البرمجة_page-0001.jpg";
@@ -27,6 +28,11 @@ const certificate_data = {
       id: 19,
       cert_img: DEPI1,
       link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1737029820/Mohammed_Ali_Abdullah_Abdelfattah_page-0001_n7f92j.jpg",
+    },
+    {
+      id: 20,
+      cert_img: DEPI1English,
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1738765653/Muhammad_Ali_Abdullah_page-0001_tdu1v2.jpg",
     },
     {
       id: 15,
