@@ -29,6 +29,11 @@ const certificate_data = {
       cert_img: DEPI1,
       link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1737029820/Mohammed_Ali_Abdullah_Abdelfattah_page-0001_n7f92j.jpg",
     },
+        {
+      id: 20,
+      cert_img: DEPI1English,
+      link: "https://res.cloudinary.com/dum9aqxis/image/upload/v1738765653/Muhammad_Ali_Abdullah_page-0001_tdu1v2.jpg",
+    },
     {
       id: 20,
       cert_img: DEPI1English,
