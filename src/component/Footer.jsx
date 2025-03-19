@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <p className="footer-description">
-            I am an experienced Frontend Developer. 
+            I am an experienced Frontend Next Js Developer. 
           </p>
         </div>
         <div className="footer-top-right">
