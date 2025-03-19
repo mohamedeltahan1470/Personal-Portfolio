@@ -47,10 +47,10 @@ const mywork_data = {
     },
     {
       id: 6,
-      name: "Music Player Design",
+      name: "quran",
       image: "project-image1.jpg",
-      description: "A responsive music player design featuring play/pause controls, a progress bar, and an elegant UI.",
-      fullDescription: "This project is a music player designed using HTML, CSS, and JavaScript. It features a clean interface that includes controls for playing, pausing, and skipping tracks. The layout is responsive, ensuring a smooth experience on both desktop and mobile devices. The player also includes a progress bar that allows users to track playback and adjust the current position of the track.",
+      description: "A responsive quran player design featuring play/pause controls, a progress bar, and an elegant UI.",
+      fullDescription: "This project is a quran player designed using HTML, CSS, and JavaScript. It features a clean interface that includes controls for playing, pausing, and skipping tracks. The layout is responsive, ensuring a smooth experience on both desktop and mobile devices. The player also includes a progress bar that allows users to track playback and adjust the current position of the track.",
       link: "https://make-a-music-player.vercel.app/"
     },
     {
