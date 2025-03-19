@@ -247,14 +247,14 @@ const mywork_data = {
   fullDescription: "This project showcases a fully responsive website design using HTML, CSS, and JavaScript. The layout adapts seamlessly to various screen sizes, ensuring a user-friendly experience across devices. Features include a navigation menu, interactive elements, and smooth transitions, all designed with best practices in mind for modern web development.",
    link: "https://coming-soon-page-cyan-zeta.vercel.app/",
 },
-{
-  id: 30,
-  name: "Horizontal Scrolling Image",
-  image: "project-image1.jpg",
-  description: "A responsive layout built with CSS Grid.",
-  fullDescription: "A responsive website layout using CSS Grid, adapting to various screen sizes with flexible grid areas.",
-  link: "https://image-search-engine-hwc3.vercel.app/",
-},
+// {
+//   id: 30,
+//   name: "Horizontal Scrolling Image",
+//   image: "project-image1.jpg",
+//   description: "A responsive layout built with CSS Grid.",
+//   fullDescription: "A responsive website layout using CSS Grid, adapting to various screen sizes with flexible grid areas.",
+//   link: "https://image-search-engine-hwc3.vercel.app/",
+// },
 {
   id: 31,
   name: "Progress Bar Application",
@@ -265,6 +265,24 @@ const mywork_data = {
 },
   ],
   ReactProjects: [
+        {
+      id: 3,
+      name: "Responsive E-commerce Website",
+      image: "project-image1.jpg",
+      description: "A fully responsive e-commerce website built with React.",
+      fullDescription: "This project is a responsive e-commerce website that allows users to browse products across multiple categories, including men's, women's, and kids' fashion. Built with React, this website features a dynamic routing system using React Router, a shopping cart functionality, and a user authentication system. The design is mobile-first, ensuring a seamless experience on both mobile and desktop devices. The website integrates an API to fetch product data and display it in a user-friendly interface, making it easy for customers to navigate and purchase items.",
+      link: "https://e-commerce-react-app-gamma.vercel.app/", 
+    },
+        {
+      id: 5,
+      name: "Gemini Clone",
+      image: "project-image2.jpg",
+      description: "A web app that simulates the Gemini platform for AI-driven conversations.",
+      fullDescription: `
+        Gemini Clone is a web application that enables users to chat with an AI for instant responses. It features user authentication and a responsive design, providing a seamless experience on any device.
+      `,
+      link: "https://gemini-clone-nine-alpha.vercel.app/",
+    },
     {
       id: 1,
       name: "Social Network Application",
@@ -281,39 +299,25 @@ const mywork_data = {
       fullDescription: "This web application is designed to provide users with a seamless experience for managing their accounts and assigned numbers. It includes user authentication features such as sign-up and sign-in, allowing users to securely manage their profile information. The profile management section enables users to update personal details such as their first name, last name, email, and password. Additionally, users can view and delete their assigned numbers in the 'My Numbers' section. Built with React and Material-UI, the application is responsive and ensures a user-friendly interface across devices.",
       link: "https://web-app-lovat-ten.vercel.app/"
     },
-    {
-      id: 3,
-      name: "Responsive E-commerce Website",
-      image: "project-image1.jpg",
-      description: "A fully responsive e-commerce website built with React.",
-      fullDescription: "This project is a responsive e-commerce website that allows users to browse products across multiple categories, including men's, women's, and kids' fashion. Built with React, this website features a dynamic routing system using React Router, a shopping cart functionality, and a user authentication system. The design is mobile-first, ensuring a seamless experience on both mobile and desktop devices. The website integrates an API to fetch product data and display it in a user-friendly interface, making it easy for customers to navigate and purchase items.",
-      link: "https://e-commerce-react-app-gamma.vercel.app/", 
-    },
+
     {
       id: 4,
       name: "YouTube Clone",
       image: "project-image2.jpg", 
       description: "A responsive web application that mimics the core features of YouTube, including video streaming, user subscriptions, and recommendations.",
       fullDescription: "This YouTube clone allows users to browse and watch videos, subscribe to channels, and receive personalized video recommendations. Built with React, the application integrates with the YouTube API to fetch real-time data on trending videos and user subscriptions. The interface is designed for mobile and desktop responsiveness, ensuring a seamless user experience. Key features include a functional sidebar for navigation, a video player component for streaming, and a recommended videos section that enhances user engagement.",
-      link: "https://youtube-clone-rho-pearl.vercel.app/",
+      // link: "https://youtube-clone-rho-pearl.vercel.app/",
+        link: "#",
     },
-    {
-      id: 5,
-      name: "Gemini Clone",
-      image: "project-image2.jpg",
-      description: "A web app that simulates the Gemini platform for AI-driven conversations.",
-      fullDescription: `
-        Gemini Clone is a web application that enables users to chat with an AI for instant responses. It features user authentication and a responsive design, providing a seamless experience on any device.
-      `,
-      link: "https://gemini-clone-nine-alpha.vercel.app/",
-    },
+
     {
       id: 6,
       name: "EduSity - Online Learning Platform",
       image: "project-image2.jpg",
       description: "EduSity is an innovative online learning platform that connects students and educators for a seamless learning experience.",
       fullDescription: "EduSity is an online learning platform designed to enhance the educational experience for students and educators alike. The platform features interactive courses, video tutorials, and a user-friendly interface. With real-time communication tools, students can engage with instructors and peers, fostering a collaborative learning environment. The application is built using React for the front-end and Node.js for the back-end, ensuring a smooth and responsive user experience. Key features include user authentication, course enrollment, progress tracking, and a discussion forum. This project showcases modern web development practices and a focus on user experience.",
-      link: "https://responsive-edusity.vercel.app/",
+      // link: "https://responsive-edusity.vercel.app/",
+       link: "#",
     },
     {
       id: 7,
