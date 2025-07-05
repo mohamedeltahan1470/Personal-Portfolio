@@ -306,8 +306,7 @@ const mywork_data = {
       image: "project-image2.jpg", 
       description: "A responsive web application that mimics the core features of YouTube, including video streaming, user subscriptions, and recommendations.",
       fullDescription: "This YouTube clone allows users to browse and watch videos, subscribe to channels, and receive personalized video recommendations. Built with React, the application integrates with the YouTube API to fetch real-time data on trending videos and user subscriptions. The interface is designed for mobile and desktop responsiveness, ensuring a seamless user experience. Key features include a functional sidebar for navigation, a video player component for streaming, and a recommended videos section that enhances user engagement.",
-      // link: "https://youtube-clone-rho-pearl.vercel.app/",
-        link: "#",
+      link: "https://youtube-clone-rho-pearl.vercel.app/"
     },
 
     {
@@ -316,8 +315,7 @@ const mywork_data = {
       image: "project-image2.jpg",
       description: "EduSity is an innovative online learning platform that connects students and educators for a seamless learning experience.",
       fullDescription: "EduSity is an online learning platform designed to enhance the educational experience for students and educators alike. The platform features interactive courses, video tutorials, and a user-friendly interface. With real-time communication tools, students can engage with instructors and peers, fostering a collaborative learning environment. The application is built using React for the front-end and Node.js for the back-end, ensuring a smooth and responsive user experience. Key features include user authentication, course enrollment, progress tracking, and a discussion forum. This project showcases modern web development practices and a focus on user experience.",
-      // link: "https://responsive-edusity.vercel.app/",
-       link: "#",
+      link: "https://responsive-edusity.vercel.app/"
     },
     {
       id: 7,
@@ -345,7 +343,6 @@ const mywork_data = {
     }
     
   ],
-  // أضف المزيد من التصنيفات والمشاريع حسب الحاجة...
 };
 const MyWork = () => {
   const [visibleCount, setVisibleCount] = useState(2);
