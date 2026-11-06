@@ -15,6 +15,10 @@ const Posts = () => {
       image:
         "https://res.cloudinary.com/dum9aqxis/image/upload/v1733342383/7e5af332-f0be-452c-8de1-bc7fefeec3af_wgh0a8.jpg",
     },
+     {
+      image:
+        "https://res.cloudinary.com/dum9aqxis/image/upload/v1733342383/7e5af332-f0be-452c-8de1-bc7fefeec3af_wgh0a8.jpg",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
